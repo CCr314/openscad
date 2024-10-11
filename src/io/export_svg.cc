@@ -24,7 +24,6 @@
  *
  */
 
-#include <cassert>
 #include <ostream>
 #include <memory>
 #include "io/export.h"
@@ -49,7 +48,7 @@ static void append_svg(const Polygon2d& poly, std::ostream& output)
     }
     output << " z\n";
   }
-  output << "\" stroke=\"black\" fill=\"lightgray\" stroke-width=\"0.5\"/>\n";
+  output << "\" stroke=\"red\" fill=\"\" style=\"fill:none\" stroke-width=\"0.2\"/>\n";
 
 }
 
